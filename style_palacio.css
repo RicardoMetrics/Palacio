@@ -43,7 +43,7 @@ body {
 .textos {
     font-family: var(--font-primaria);
     color: var(--color-txt-descriptivos);
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2rem;
     
 }

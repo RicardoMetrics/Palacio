@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://ricardoyanez.com/wp-content/uploads/2022/04/favicon.svg">
+    <!--Importar fuentes de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Fuentes de Google utilizadas-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">    <!--Importar iconos de Font awesome-->
+    <script src="https://kit.fontawesome.com/a14b0f9aa9.js" crossorigin="anonymous"></script> 
+    <!--Estilos CSS-->   
+    <link rel="stylesheet" href="style_palacio.css">
+    <title>Dashboard</title>
+</head>
+<body>
+<!--Div contenedor general responsivo-->
+<div class="contenedor">
+    <header class="cabecera">
+        <div class="logo">
+            <img src="https://ricardoyanez.com/wp-content/uploads/2022/10/RevelioDelta_w.svg" alt="Xpectus Revelio Delta">
+        </div>
+        <nav>
+            <!--menu -->
+            <a href="actividad.html" class="nav-link seleccionado">Actividad</a>
+            <a href="intereses.html" class="nav-link">Intereses</a>
+        </nav>
+    </header>
+    
+<!--Inicia estructura de dashboard-->
+<section class="dashboard_competencia">
+       
+    <div class="seccion_competencia_capitalizacion card">
+        
+        <h3 class="titulos"> Actividad: últimas 24 hrs</h3>
+        <p class="textos">Volumen de actividad en RS en las últimas horas.</p>
+        <iframe title="1.1 Numeralia" aria-label="Tabla" id="datawrapper-chart-nE0OL" src="https://datawrapper.dwcdn.net/nE0OL/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="110"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+<br>
+<br>
+        <p class="textos">Actividad por sector o grupo</p>
+        <br>
+        <iframe title="1.2Audiencias" aria-label="Gráfica de barras" id="datawrapper-chart-Hamax" src="https://datawrapper.dwcdn.net/Hamax/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="191"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+    </div>
+
+    <div class="seccion_competencia_actitud card">
+        <h3 class="titulos">Aprobación: últimas 24 hrs</h3>
+        <p class="textos">Volumen de mensajes de aprobación a desaprobación en RS.</p>
+        <br>
+        <iframe title="1.3Actitud24" aria-label="Gráfico de columnas apiladas" id="datawrapper-chart-y4TQ9" src="https://datawrapper.dwcdn.net/y4TQ9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+    </div>
+
+    <div class="seccion_competencia_conversacion card">
+        <h3 class="titulos">Actividad: últimos 7 días</h3>
+        <p class="textos">Comparativo de la actividad e inflexiones en días previos.</p>
+        <br>
+        <iframe title="1.4Actividad7ías" aria-label="Interactive line chart" id="datawrapper-chart-Jmuc1" src="https://datawrapper.dwcdn.net/Jmuc1/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="429"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+    </div>
+
+    <div class="seccion_competencia_app card">
+        <h3 class="titulos">Aprobación: últimos 7 días</h3>
+        <p class="textos">Evaluación de la aprobación y desaprobación en días previos.</p>
+        <br>
+        <iframe title="1.5ActitudSemanal" aria-label="Interactive line chart" id="datawrapper-chart-dT2zK" src="https://datawrapper.dwcdn.net/dT2zK/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="555"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+    </div>
+
+    
+
+</section>
+</div>  
+</body>
+</html>
